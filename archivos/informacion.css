@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(200, 200, 200);
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+#superior{
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    color: whitesmoke;  
+}
+#nav{
+    position: absolute;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    display: grid;
+    grid-template-columns: 40% 12% 12% 20% 20%;
+
+    
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+#superior a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#superior a:hover{
+    border-bottom: solid 2.5px rgb(255, 255, 255);
+}
+
+body{
+    background-image: url("fondoInfo.jpg");
+}
+
+
+.form{
+    width:45%;
+    height:430px;
+    background:#1a1919;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px rgb(0, 0, 0);
+    margin-left: 40%;
+    margin-top: 8%;
+
+    padding:20px 30px;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:absolute
+}
+
+h2{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#e0e0e0;
+    border-bottom:3px solid #e0e0e0
+}
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #e0e0e0
+}
+input:focus{
+    border-bottom:2px solid #e0e0e0
+}
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#e0e0e0
+}
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #e0e0e0;
+    background:0;
+    color:#e0e0e0;
+    cursor:pointer;
+    transition:all .3s
+}
+button:hover{background:#e0e0e0;color:rgb(0, 0, 0)}
+
+footer{
+    margin-top: 50%;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    padding-top: 35px;    
+}
+#contacto{
+    width: 12%;
+    margin-left: 44%;
+    margin-right: 44%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#contacto img{
+    opacity: 0.7;
+}
+#contacto img:hover{
+    opacity: 1;
+}
+
+#imgav {
+    position: absolute;
+    z-index: 100;
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
